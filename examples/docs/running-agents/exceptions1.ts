@@ -4,7 +4,7 @@ import {
   GuardrailExecutionError,
   InputGuardrail,
   InputGuardrailTripwireTriggered,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 const guardrailAgent = new Agent({

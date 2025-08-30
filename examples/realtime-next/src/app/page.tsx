@@ -9,7 +9,7 @@ import {
   OutputGuardrailTripwireTriggered,
   RealtimeItem,
   RealtimeContextData,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 import { useEffect, useRef, useState } from 'react';
 import { z } from 'zod';
 import { handleRefundRequest } from './server/backendAgent';

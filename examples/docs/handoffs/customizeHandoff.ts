@@ -1,4 +1,8 @@
-import { Agent, handoff, RunContext } from '@openai/agents';
+import {
+  Agent,
+  handoff,
+  RunContext,
+} from 'react-native-openai-agents-js-agents';
 
 function onHandoff(ctx: RunContext) {
   console.log('Handoff called');

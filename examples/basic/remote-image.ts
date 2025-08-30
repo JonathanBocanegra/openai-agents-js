@@ -1,4 +1,4 @@
-import { Agent, run } from '@openai/agents';
+import { Agent, run } from 'react-native-openai-agents-js-agents';
 
 const url =
   'https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg';

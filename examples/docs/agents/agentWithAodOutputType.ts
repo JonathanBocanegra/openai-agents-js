@@ -1,4 +1,4 @@
-import { Agent } from '@openai/agents';
+import { Agent } from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 const CalendarEvent = z.object({

@@ -1,5 +1,11 @@
 import { chromium, Browser, Page } from 'playwright';
-import { Agent, run, withTrace, Computer, computerTool } from '@openai/agents';
+import {
+  Agent,
+  run,
+  withTrace,
+  Computer,
+  computerTool,
+} from 'react-native-openai-agents-js-agents';
 
 async function main() {
   const computer = await new LocalPlaywrightComputer().init();

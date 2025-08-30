@@ -3,8 +3,10 @@
   "compilerOptions": {
     "outDir": "./dist",
     "paths": {
-      "@openai/agents-realtime": ["./src/index.ts"],
-      "@openai/agents-realtime/_shims": ["./src/shims/shims-node.ts"]
+      "react-native-openai-agents-js-agents-realtime": ["./src/index.ts"],
+      "react-native-openai-agents-js-agents-realtime/_shims": [
+        "./src/shims/shims-node.ts"
+      ]
     }
   },
   "include": ["src/**/*.ts", "test/**/*.ts"],

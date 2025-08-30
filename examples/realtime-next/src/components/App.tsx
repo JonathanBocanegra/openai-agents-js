@@ -2,7 +2,7 @@ import {
   RealtimeItem,
   OutputGuardrailTripwireTriggered,
   TransportEvent,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 import { History } from '@/components/History';
 import { Button } from '@/components/ui/Button';
 

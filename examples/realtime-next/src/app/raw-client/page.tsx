@@ -1,6 +1,9 @@
 'use client';
 
-import { TransportEvent, OpenAIRealtimeWebRTC } from '@openai/agents/realtime';
+import {
+  TransportEvent,
+  OpenAIRealtimeWebRTC,
+} from 'react-native-openai-agents-js-agents/realtime';
 import { useEffect, useRef, useState } from 'react';
 import { getToken } from '../server/token';
 import { App } from '@/components/App';

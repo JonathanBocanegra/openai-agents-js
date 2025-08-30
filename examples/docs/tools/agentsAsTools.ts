@@ -1,4 +1,4 @@
-import { Agent } from '@openai/agents';
+import { Agent } from 'react-native-openai-agents-js-agents';
 
 const summarizer = new Agent({
   name: 'Summarizer',

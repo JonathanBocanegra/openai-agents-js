@@ -1,5 +1,9 @@
 import { z } from 'zod';
-import { RealtimeAgent, RealtimeSession, tool } from '@openai/agents-realtime';
+import {
+  RealtimeAgent,
+  RealtimeSession,
+  tool,
+} from 'react-native-openai-agents-js-agents-realtime';
 
 const getWeatherTool = tool({
   name: 'get_weather',

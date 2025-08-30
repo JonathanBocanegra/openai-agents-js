@@ -1,7 +1,13 @@
 import { z } from 'zod';
 import readline from 'node:readline';
-import { Agent, withTrace, tool, run, RunContext } from '@openai/agents';
-import { RECOMMENDED_PROMPT_PREFIX } from '@openai/agents-core/extensions';
+import {
+  Agent,
+  withTrace,
+  tool,
+  run,
+  RunContext,
+} from 'react-native-openai-agents-js-agents';
+import { RECOMMENDED_PROMPT_PREFIX } from 'react-native-openai-agents-js-agents-core/extensions';
 
 // ------------------------------------------------
 // Context

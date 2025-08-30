@@ -47,7 +47,7 @@ const { FakeRTCDataChannel, FakeRTCPeerConnection, lastChannelRef } =
     };
   });
 
-vi.mock('@openai/agents-realtime/_shims', () => ({
+vi.mock('react-native-openai-agents-js-agents-realtime/_shims', () => ({
   isBrowserEnvironment: () => false,
   RTCPeerConnection: FakeRTCPeerConnection,
   mediaDevices: {

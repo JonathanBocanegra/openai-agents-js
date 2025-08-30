@@ -2,7 +2,7 @@ import {
   RealtimeAgent,
   RealtimeContextData,
   tool,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 import { handleRefundRequest } from './serverAgent';
 import z from 'zod';
 

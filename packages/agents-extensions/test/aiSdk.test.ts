@@ -6,10 +6,14 @@ import {
   parseArguments,
   toolToLanguageV1Tool,
 } from '../src/aiSdk';
-import { protocol, withTrace, UserError } from '@openai/agents';
+import {
+  protocol,
+  withTrace,
+  UserError,
+} from 'react-native-openai-agents-js-agents';
 import { ReadableStream } from 'node:stream/web';
 import type { LanguageModelV1 } from '@ai-sdk/provider';
-import type { SerializedOutputType } from '@openai/agents';
+import type { SerializedOutputType } from 'react-native-openai-agents-js-agents';
 
 function stubModel(
   partial: Partial<Pick<LanguageModelV1, 'doGenerate' | 'doStream'>>,

@@ -1,8 +1,8 @@
 {
-  "name": "@openai/agents-extensions",
-  "repository": "https://github.com/openai/openai-agents-js",
+  "name": "react-native-openai-agents-js-agents-extensions",
+  "repository": "https://github.com/JonathanBocanegra/openai-agents-js",
   "homepage": "https://openai.github.io/openai-agents-js/",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "Extensions for the OpenAI Agents SDK",
   "author": "OpenAI <support@openai.com>",
   "main": "dist/index.js",

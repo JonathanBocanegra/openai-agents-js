@@ -1,4 +1,4 @@
-import { protocol, Usage } from '@openai/agents-core';
+import { protocol, Usage } from 'react-native-openai-agents-js-agents-core';
 import { RealtimeBaseItem, RealtimeItem } from './items';
 
 /**

@@ -1,4 +1,9 @@
-import { Agent, run, withTrace, extractAllTextOutput } from '@openai/agents';
+import {
+  Agent,
+  run,
+  withTrace,
+  extractAllTextOutput,
+} from 'react-native-openai-agents-js-agents';
 import readline from 'node:readline/promises';
 
 const rl = readline.createInterface({

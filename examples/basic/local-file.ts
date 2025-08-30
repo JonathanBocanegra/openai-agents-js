@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { Agent, run } from '@openai/agents';
+import { Agent, run } from 'react-native-openai-agents-js-agents';
 
 const filePath = path.join(
   __dirname,

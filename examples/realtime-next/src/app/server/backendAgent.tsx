@@ -1,7 +1,7 @@
 'use server';
 
-import { Agent, Runner, user } from '@openai/agents';
-import { type RealtimeItem } from '@openai/agents/realtime';
+import { Agent, Runner, user } from 'react-native-openai-agents-js-agents';
+import { type RealtimeItem } from 'react-native-openai-agents-js-agents/realtime';
 import { z } from 'zod';
 
 const backendAgent = new Agent({

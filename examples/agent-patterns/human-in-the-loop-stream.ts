@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import readline from 'node:readline/promises';
-import { Agent, run, tool } from '@openai/agents';
+import { Agent, run, tool } from 'react-native-openai-agents-js-agents';
 
 // Prompt user for yes/no confirmation
 async function confirm(question: string): Promise<boolean> {

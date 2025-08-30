@@ -5,7 +5,7 @@ import {
   run,
   setDefaultOpenAIClient,
   setTracingDisabled,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import OpenAI from 'openai';
 
 setTracingDisabled(true);

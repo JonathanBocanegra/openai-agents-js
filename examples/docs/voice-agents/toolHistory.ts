@@ -2,7 +2,7 @@ import {
   tool,
   RealtimeContextData,
   RealtimeItem,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 import { z } from 'zod';
 
 const parameters = z.object({

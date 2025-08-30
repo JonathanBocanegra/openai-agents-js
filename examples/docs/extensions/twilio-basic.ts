@@ -1,5 +1,8 @@
-import { TwilioRealtimeTransportLayer } from '@openai/agents-extensions';
-import { RealtimeAgent, RealtimeSession } from '@openai/agents/realtime';
+import { TwilioRealtimeTransportLayer } from 'react-native-openai-agents-js-agents-extensions';
+import {
+  RealtimeAgent,
+  RealtimeSession,
+} from 'react-native-openai-agents-js-agents/realtime';
 
 const agent = new RealtimeAgent({
   name: 'My Agent',

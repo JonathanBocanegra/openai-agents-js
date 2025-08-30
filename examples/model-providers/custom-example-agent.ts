@@ -5,7 +5,7 @@ import {
   withTrace,
   OpenAIChatCompletionsModel,
   tool,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { OpenAI } from 'openai';
 
 const getWeatherTool = tool({

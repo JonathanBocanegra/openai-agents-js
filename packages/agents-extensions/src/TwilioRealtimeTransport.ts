@@ -5,8 +5,8 @@ import {
   RealtimeTransportLayerConnectOptions,
   TransportLayerAudio,
   RealtimeSessionConfig,
-} from '@openai/agents/realtime';
-import { getLogger } from '@openai/agents';
+} from 'react-native-openai-agents-js-agents/realtime';
+import { getLogger } from 'react-native-openai-agents-js-agents';
 import type {
   WebSocket as NodeWebSocket,
   MessageEvent as NodeMessageEvent,

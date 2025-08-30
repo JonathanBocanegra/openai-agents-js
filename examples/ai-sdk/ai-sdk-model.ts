@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { Agent, run, tool } from '@openai/agents';
+import { Agent, run, tool } from 'react-native-openai-agents-js-agents';
 import { openai } from '@ai-sdk/openai';
-import { aisdk } from '@openai/agents-extensions';
+import { aisdk } from 'react-native-openai-agents-js-agents-extensions';
 
 const model = aisdk(openai('gpt-4.1-nano'));
 

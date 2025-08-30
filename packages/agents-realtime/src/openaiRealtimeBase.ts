@@ -1,4 +1,7 @@
-import { RuntimeEventEmitter, Usage } from '@openai/agents-core';
+import {
+  RuntimeEventEmitter,
+  Usage,
+} from 'react-native-openai-agents-js-agents-core';
 import type { MessageEvent as WebSocketMessageEvent } from 'ws';
 
 import {
@@ -29,7 +32,7 @@ import {
   TransportToolCallEvent,
 } from './transportLayerEvents';
 import { arrayBufferToBase64, diffRealtimeHistory } from './utils';
-import { EventEmitterDelegate } from '@openai/agents-core/utils';
+import { EventEmitterDelegate } from 'react-native-openai-agents-js-agents-core/utils';
 
 /**
  * The models that are supported by the OpenAI Realtime API.

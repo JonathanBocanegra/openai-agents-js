@@ -1,4 +1,4 @@
-import { Agent, run, RunResult } from '@openai/agents';
+import { Agent, run, RunResult } from 'react-native-openai-agents-js-agents';
 import { financialsAgent } from './agents';
 import {
   plannerAgent,

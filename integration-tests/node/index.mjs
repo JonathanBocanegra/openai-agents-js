@@ -6,7 +6,7 @@ import {
   setTraceProcessors,
   ConsoleSpanExporter,
   BatchTraceProcessor,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 
 setTraceProcessors([new BatchTraceProcessor(new ConsoleSpanExporter())]);
 

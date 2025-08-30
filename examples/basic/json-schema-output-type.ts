@@ -1,4 +1,8 @@
-import { Agent, run, JsonSchemaDefinition } from '@openai/agents';
+import {
+  Agent,
+  run,
+  JsonSchemaDefinition,
+} from 'react-native-openai-agents-js-agents';
 
 const WeatherSchema: JsonSchemaDefinition = {
   type: 'json_schema',

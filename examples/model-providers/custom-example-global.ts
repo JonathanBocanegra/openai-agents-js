@@ -6,7 +6,7 @@ import {
   OpenAIProvider,
   setDefaultOpenAIClient,
   setOpenAIAPI,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import OpenAI from 'openai';
 import { z } from 'zod';
 

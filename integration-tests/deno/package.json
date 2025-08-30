@@ -5,6 +5,6 @@
     "start": "deno --allow-net --allow-env main.ts"
   },
   "dependencies": {
-    "@openai/agents": "latest"
+    "react-native-openai-agents-js-agents": "latest"
   }
 }

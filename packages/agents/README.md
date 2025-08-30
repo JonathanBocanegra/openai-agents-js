@@ -51,13 +51,13 @@ Experimental support:
 This SDK currently does not work with `zod@3.25.68` and above. Please install `zod@3.25.67` (or any older version) explicitly. We will resolve this dependency issue soon. Please check [this issue](https://github.com/openai/openai-agents-js/issues/187) for updates.
 
 ```bash
-npm install @openai/agents 'zod@<=3.25.67'
+npm install react-native-openai-agents-js-agents 'zod@<=3.25.67'
 ```
 
 ## Hello world example
 
 ```js
-import { Agent, run } from '@openai/agents';
+import { Agent, run } from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'Assistant',
@@ -80,7 +80,7 @@ console.log(result.finalOutput);
 
 ```js
 import { z } from 'zod';
-import { Agent, run, tool } from '@openai/agents';
+import { Agent, run, tool } from 'react-native-openai-agents-js-agents';
 
 const getWeatherTool = tool({
   name: 'get_weather',
@@ -109,7 +109,7 @@ main().catch(console.error);
 
 ```js
 import { z } from 'zod';
-import { Agent, run, tool } from '@openai/agents';
+import { Agent, run, tool } from 'react-native-openai-agents-js-agents';
 
 const getWeatherTool = tool({
   name: 'get_weather',
@@ -146,7 +146,11 @@ main().catch(console.error);
 
 ```js
 import { z } from 'zod';
-import { RealtimeAgent, RealtimeSession, tool } from '@openai/agents-realtime';
+import {
+  RealtimeAgent,
+  RealtimeSession,
+  tool,
+} from 'react-native-openai-agents-js-agents-realtime';
 
 const getWeatherTool = tool({
   name: 'get_weather',

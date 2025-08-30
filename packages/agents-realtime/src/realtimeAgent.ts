@@ -4,7 +4,7 @@ import {
   Handoff,
   TextOutput,
   UnknownContext,
-} from '@openai/agents-core';
+} from 'react-native-openai-agents-js-agents-core';
 import { RealtimeContextData } from './realtimeSession';
 
 export type RealtimeAgentConfiguration<TContext = UnknownContext> = Partial<

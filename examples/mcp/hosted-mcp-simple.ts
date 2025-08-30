@@ -1,4 +1,9 @@
-import { Agent, run, hostedMcpTool, withTrace } from '@openai/agents';
+import {
+  Agent,
+  run,
+  hostedMcpTool,
+  withTrace,
+} from 'react-native-openai-agents-js-agents';
 
 async function main(verbose: boolean, stream: boolean): Promise<void> {
   withTrace('Hosted MCP Example', async () => {

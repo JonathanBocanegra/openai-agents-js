@@ -4,7 +4,7 @@ This example shows how to run the Agents SDK with a model provided by the [AI SD
 
 The [ai-sdk-model.ts](./ai-sdk-model.ts) script:
 
-- Wraps the AI SDK `openai` provider with `aisdk` from `@openai/agents-extensions`.
+- Wraps the AI SDK `openai` provider with `aisdk` from `react-native-openai-agents-js-agents-extensions`.
 - Creates a simple `get_weather` tool that returns a mock weather string.
 - Defines a data agent that uses this model and tool.
 - Runs a parent agent that hands off to the data agent to answer a weather question.
@@ -18,4 +18,3 @@ pnpm -F ai-sdk start:sdk-model
 ```
 
 The script prints the final output produced by the runner.
-

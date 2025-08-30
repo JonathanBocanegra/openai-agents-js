@@ -1,4 +1,4 @@
-import { tool } from '@openai/agents';
+import { tool } from 'react-native-openai-agents-js-agents';
 
 interface LooseToolInput {
   text: string;

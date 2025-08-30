@@ -1,4 +1,4 @@
-import { Agent, run, tool, Usage } from '@openai/agents';
+import { Agent, run, tool, Usage } from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 const randomNumberTool = tool({

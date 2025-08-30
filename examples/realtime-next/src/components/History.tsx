@@ -1,4 +1,4 @@
-import { RealtimeItem } from '@openai/agents/realtime';
+import { RealtimeItem } from 'react-native-openai-agents-js-agents/realtime';
 import { TextMessage } from './messages/TextMessage';
 import { FunctionCallMessage } from './messages/FunctionCall';
 

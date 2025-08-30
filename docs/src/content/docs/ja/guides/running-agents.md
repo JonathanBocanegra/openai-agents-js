@@ -6,7 +6,7 @@ description: Configure and execute agent workflows with the Runner class
 Agents は単体では何もしません。`Runner` クラスで **実行** します。
 
 ```typescript title="Simple run"
-import { Agent, Runner } from '@openai/agents';
+import { Agent, Runner } from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'Assistant',
@@ -110,7 +110,7 @@ streamed.toTextStream({ compatibleWithNodeStreams: true }).pipe(process.stdout);
 | `traceMetadata`             | `Record<string, any>` | すべての span に付加する任意のメタデータ                               |
 
 ```typescript title="Custom Runner"
-import { Runner } from '@openai/agents';
+import { Runner } from 'react-native-openai-agents-js-agents';
 import { MyVectorSearchProvider } from './my_provider.js';
 
 const runner = new Runner({
@@ -172,7 +172,7 @@ import {
   GuardrailExecutionError,
   InputGuardrail,
   InputGuardrailTripwireTriggered,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 
 const guardrailAgent = new Agent({
   name: 'Guardrail check',

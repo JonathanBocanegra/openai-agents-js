@@ -6,7 +6,7 @@ const {
   setTraceProcessors,
   ConsoleSpanExporter,
   BatchTraceProcessor,
-} = require('@openai/agents');
+} = require('react-native-openai-agents-js-agents');
 const { assert } = require('node:console');
 
 setTraceProcessors([new BatchTraceProcessor(new ConsoleSpanExporter())]);

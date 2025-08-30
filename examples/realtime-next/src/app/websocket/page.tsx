@@ -8,7 +8,7 @@ import {
   RealtimeItem,
   OutputGuardrailTripwireTriggered,
   RealtimeOutputGuardrail,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 import { useEffect, useRef, useState } from 'react';
 import { z } from 'zod';
 import { WavRecorder, WavStreamPlayer } from 'wavtools';

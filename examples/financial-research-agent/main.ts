@@ -1,4 +1,4 @@
-import { withTrace } from '@openai/agents';
+import { withTrace } from 'react-native-openai-agents-js-agents';
 import { FinancialResearchManager } from './manager';
 
 // Entrypoint for the financial bot example.

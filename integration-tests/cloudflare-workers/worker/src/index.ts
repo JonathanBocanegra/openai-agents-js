@@ -24,7 +24,7 @@ import {
   setDefaultOpenAIKey,
   setTraceProcessors,
   withTrace,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 
 export default {
   async fetch(request, env, ctx): Promise<Response> {

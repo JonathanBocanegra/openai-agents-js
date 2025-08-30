@@ -1,3 +1,3 @@
-import { setDefaultOpenAIKey } from '@openai/agents';
+import { setDefaultOpenAIKey } from 'react-native-openai-agents-js-agents';
 
 setDefaultOpenAIKey(process.env.OPENAI_API_KEY!); // sk-...

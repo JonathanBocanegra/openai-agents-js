@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ClockIcon from '@/components/icons/ClockIcon';
-import { RealtimeToolCallItem } from '@openai/agents/realtime';
+import { RealtimeToolCallItem } from 'react-native-openai-agents-js-agents/realtime';
 import FunctionsIcon from '@/components/icons/FunctionsIcon';
 
 type FunctionCallMessageProps = {

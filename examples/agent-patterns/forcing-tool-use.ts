@@ -8,7 +8,7 @@ import {
   RunContext,
   FunctionToolResult,
   ToolUseBehavior,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 type Weather = {

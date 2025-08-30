@@ -1,7 +1,13 @@
 import { z } from 'zod';
 import readline from 'node:readline/promises';
 import fs from 'node:fs/promises';
-import { Agent, run, tool, RunState, RunResult } from '@openai/agents';
+import {
+  Agent,
+  run,
+  tool,
+  RunState,
+  RunResult,
+} from 'react-native-openai-agents-js-agents';
 
 const getWeatherTool = tool({
   name: 'get_weather',

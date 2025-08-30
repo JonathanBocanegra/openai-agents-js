@@ -1,4 +1,9 @@
-import { Agent, run, hostedMcpTool, RunToolApprovalItem } from '@openai/agents';
+import {
+  Agent,
+  run,
+  hostedMcpTool,
+  RunToolApprovalItem,
+} from 'react-native-openai-agents-js-agents';
 import * as readline from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
 

@@ -7,12 +7,12 @@ import {
   toolToOpenAI,
   convertHandoffTool,
 } from '../src/openaiChatCompletionsConverter';
-import { protocol, UserError } from '@openai/agents-core';
+import { protocol, UserError } from 'react-native-openai-agents-js-agents-core';
 import type {
   SerializedFunctionTool,
   SerializedHandoff,
   SerializedTool,
-} from '@openai/agents-core/model';
+} from 'react-native-openai-agents-js-agents-core/model';
 
 /**
  * Tests around the helpers converting internal protocol structures to the

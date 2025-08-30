@@ -1,4 +1,4 @@
-import { Agent, RunContext } from '@openai/agents';
+import { Agent, RunContext } from 'react-native-openai-agents-js-agents';
 
 interface UserContext {
   name: string;

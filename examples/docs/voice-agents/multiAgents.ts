@@ -1,4 +1,4 @@
-import { RealtimeAgent } from '@openai/agents/realtime';
+import { RealtimeAgent } from 'react-native-openai-agents-js-agents/realtime';
 
 const mathTutorAgent = new RealtimeAgent({
   name: 'Math Tutor',

@@ -4,9 +4,9 @@ import {
   ModelRequest,
   ModelResponse,
   ResponseStreamEvent,
-} from '@openai/agents-core';
+} from 'react-native-openai-agents-js-agents-core';
 
-import { Agent, Runner } from '@openai/agents';
+import { Agent, Runner } from 'react-native-openai-agents-js-agents';
 
 class EchoModel implements Model {
   name: string;

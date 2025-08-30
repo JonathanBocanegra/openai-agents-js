@@ -7,7 +7,7 @@ import {
   Runner,
   RunState,
   RunToolApprovalItem,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { db } from '@/db';
 
 function generateConversationId() {

@@ -1,4 +1,9 @@
-import { Agent, run, codeInterpreterTool, withTrace } from '@openai/agents';
+import {
+  Agent,
+  run,
+  codeInterpreterTool,
+  withTrace,
+} from 'react-native-openai-agents-js-agents';
 import OpenAI from 'openai';
 
 async function main() {

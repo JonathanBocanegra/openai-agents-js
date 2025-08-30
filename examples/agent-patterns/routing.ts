@@ -4,7 +4,7 @@ import {
   withTrace,
   AgentInputItem,
   StreamedRunResult,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import readline from 'node:readline/promises';
 import { randomUUID } from 'node:crypto';
 

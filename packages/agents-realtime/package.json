@@ -1,8 +1,8 @@
 {
-  "name": "@openai/agents-realtime",
-  "repository": "https://github.com/openai/openai-agents-js",
+  "name": "react-native-openai-agents-js-agents-realtime",
+  "repository": "https://github.com/JonathanBocanegra/openai-agents-js",
   "homepage": "https://openai.github.io/openai-agents-js/",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows. This package contains the logic for building realtime voice agents on the server or in the browser.",
   "author": "OpenAI <support@openai.com>",
   "main": "dist/index.js",
@@ -65,7 +65,7 @@
     "bundle": "vite build"
   },
   "dependencies": {
-    "@openai/agents-core": "workspace:*",
+    "react-native-openai-agents-js-agents-core": "workspace:*",
     "@openai/zod": "npm:zod@3.25.40 - 3.25.67",
     "@types/ws": "^8.18.1",
     "debug": "^4.4.0",

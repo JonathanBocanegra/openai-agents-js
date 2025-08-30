@@ -22,7 +22,7 @@ import quickstartExample from '../../../../../../examples/docs/quickstart/index.
 2. Agents SDK をインストールします。
 
    ```bash
-   npm install @openai/agents 'zod@<=3.25.67'
+   npm install react-native-openai-agents-js-agents 'zod@<=3.25.67'
    ```
 
 3. OpenAI API キーを設定します。まだお持ちでない場合は、[こちらの手順](https://platform.openai.com/docs/quickstart#create-and-export-an-api-key) に従って OpenAI API キーを作成してください。
@@ -40,7 +40,7 @@ import quickstartExample from '../../../../../../examples/docs/quickstart/index.
 エージェントは instructions と名前で定義します。
 
 ```typescript
-import { Agent } from '@openai/agents';
+import { Agent } from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'History Tutor',
@@ -56,7 +56,7 @@ const agent = new Agent({
 これにより、その実行中に行われた最終出力とすべてのアクションを含む result が返されます。
 
 ```typescript
-import { Agent, run } from '@openai/agents';
+import { Agent, run } from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'History Tutor',
@@ -74,7 +74,7 @@ console.log(result.finalOutput);
 エージェントにツールを与えて、情報を検索したりアクションを実行したりさせることができます。
 
 ```typescript
-import { Agent, tool } from '@openai/agents';
+import { Agent, tool } from 'react-native-openai-agents-js-agents';
 
 const historyFunFact = tool({
   // The name of the tool will be used by the agent to tell what tool to use.
@@ -137,7 +137,7 @@ const triageAgent = Agent.create({
 Runner は個々のエージェントの実行、ハンドオフの可能性、ツールの実行を管理します。
 
 ```typescript
-import { run } from '@openai/agents';
+import { run } from 'react-native-openai-agents-js-agents';
 
 async function main() {
   const result = await run(triageAgent, 'What is the capital of France?');

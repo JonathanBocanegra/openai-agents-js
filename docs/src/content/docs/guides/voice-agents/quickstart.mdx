@@ -37,10 +37,10 @@ import thinClientExample from '../../../../../../examples/docs/voice-agents/thin
 1. **Install the Agents SDK**
 
    ```bash
-   npm install @openai/agents 'zod@<=3.25.67'
+   npm install react-native-openai-agents-js-agents 'zod@<=3.25.67'
    ```
 
-   Alternatively you can install `@openai/agents-realtime` for a standalone browser package.
+   Alternatively you can install `react-native-openai-agents-js-agents-realtime` for a standalone browser package.
 
 2. **Generate a client ephemeral token**
 
@@ -62,7 +62,7 @@ import thinClientExample from '../../../../../../examples/docs/voice-agents/thin
    Creating a new [`RealtimeAgent`](/openai-agents-js/openai/agents-realtime/classes/realtimeagent/) is very similar to creating a regular [`Agent`](/openai-agents-js/guides/agents).
 
    ```typescript
-   import { RealtimeAgent } from '@openai/agents-realtime';
+   import { RealtimeAgent } from 'react-native-openai-agents-js-agents-realtime';
 
    const agent = new RealtimeAgent({
      name: 'Assistant',
@@ -75,7 +75,7 @@ import thinClientExample from '../../../../../../examples/docs/voice-agents/thin
    Unlike a regular agent, a Voice Agent is continuously running and listening inside a `RealtimeSession` that handles the conversation and connection to the model over time. This session will also handle the audio processing, interruptions, and a lot of the other lifecycle functionality we will cover later on.
 
    ```typescript
-   import { RealtimeSession } from '@openai/agents-realtime';
+   import { RealtimeSession } from 'react-native-openai-agents-js-agents-realtime';
 
    const session = new RealtimeSession(agent, {
      model: 'gpt-4o-realtime-preview-2025-06-03',
@@ -113,7 +113,6 @@ import thinClientExample from '../../../../../../examples/docs/voice-agents/thin
 From here you can start designing and building your own voice agent. Voice agents include a lot of the same features as regular agents, but have some of their own unique features.
 
 - Learn how to give your voice agent:
-
   - [Tools](/openai-agents-js/guides/voice-agents/build#tools)
   - [Handoffs](/openai-agents-js/guides/voice-agents/build#handoffs)
   - [Guardrails](/openai-agents-js/guides/voice-agents/build#guardrails)

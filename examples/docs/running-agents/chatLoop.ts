@@ -1,4 +1,8 @@
-import { Agent, AgentInputItem, run } from '@openai/agents';
+import {
+  Agent,
+  AgentInputItem,
+  run,
+} from 'react-native-openai-agents-js-agents';
 
 let thread: AgentInputItem[] = [];
 

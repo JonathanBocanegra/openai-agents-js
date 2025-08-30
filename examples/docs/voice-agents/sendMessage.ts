@@ -1,4 +1,7 @@
-import { RealtimeSession, RealtimeAgent } from '@openai/agents/realtime';
+import {
+  RealtimeSession,
+  RealtimeAgent,
+} from 'react-native-openai-agents-js-agents/realtime';
 
 const agent = new RealtimeAgent({
   name: 'Assistant',

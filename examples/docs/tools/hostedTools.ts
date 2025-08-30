@@ -1,4 +1,8 @@
-import { Agent, webSearchTool, fileSearchTool } from '@openai/agents';
+import {
+  Agent,
+  webSearchTool,
+  fileSearchTool,
+} from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'Travel assistant',

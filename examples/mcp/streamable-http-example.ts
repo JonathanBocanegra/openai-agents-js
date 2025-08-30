@@ -1,4 +1,9 @@
-import { Agent, run, MCPServerStreamableHttp, withTrace } from '@openai/agents';
+import {
+  Agent,
+  run,
+  MCPServerStreamableHttp,
+  withTrace,
+} from 'react-native-openai-agents-js-agents';
 
 async function main() {
   const mcpServer = new MCPServerStreamableHttp({

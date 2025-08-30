@@ -1,4 +1,4 @@
-import { getLogger } from '@openai/agents-core';
+import { getLogger } from 'react-native-openai-agents-js-agents-core';
 
 const logger = getLogger('openai-agents:realtime');
 

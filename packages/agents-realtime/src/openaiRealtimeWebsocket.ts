@@ -2,7 +2,7 @@ import {
   isBrowserEnvironment,
   useWebSocketProtocols,
   WebSocket,
-} from '@openai/agents-realtime/_shims';
+} from 'react-native-openai-agents-js-agents-realtime/_shims';
 import {
   RealtimeTransportLayerConnectOptions,
   RealtimeTransportLayer,
@@ -14,7 +14,7 @@ import {
   OpenAIRealtimeBaseOptions,
 } from './openaiRealtimeBase';
 import { base64ToArrayBuffer, HEADERS, WEBSOCKET_META } from './utils';
-import { UserError } from '@openai/agents-core';
+import { UserError } from 'react-native-openai-agents-js-agents-core';
 import { TransportLayerAudio } from './transportLayerEvents';
 import { parseRealtimeEvent } from './openaiRealtimeEvents';
 

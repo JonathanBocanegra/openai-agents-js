@@ -1,3 +1,3 @@
-import { setTracingDisabled } from '@openai/agents';
+import { setTracingDisabled } from 'react-native-openai-agents-js-agents';
 
 setTracingDisabled(true);

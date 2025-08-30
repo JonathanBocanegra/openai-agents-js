@@ -2,7 +2,7 @@ import {
   RealtimeAgent,
   RealtimeSession,
   TransportLayerAudio,
-} from '@openai/agents/realtime';
+} from 'react-native-openai-agents-js-agents/realtime';
 
 const agent = new RealtimeAgent({ name: 'My agent' });
 const session = new RealtimeSession(agent);

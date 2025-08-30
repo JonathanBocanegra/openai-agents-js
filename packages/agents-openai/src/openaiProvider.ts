@@ -1,4 +1,7 @@
-import { Model, ModelProvider } from '@openai/agents-core';
+import {
+  Model,
+  ModelProvider,
+} from 'react-native-openai-agents-js-agents-core';
 import OpenAI from 'openai';
 import {
   DEFAULT_OPENAI_MODEL,

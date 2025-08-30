@@ -4,7 +4,7 @@ import {
   MCPServerStdio,
   createMCPToolStaticFilter,
   withTrace,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import * as path from 'node:path';
 
 async function main() {

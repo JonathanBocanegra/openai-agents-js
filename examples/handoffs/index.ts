@@ -5,8 +5,8 @@ import {
   HandoffInputData,
   handoff,
   withTrace,
-} from '@openai/agents';
-import { removeAllTools } from '@openai/agents-core/extensions';
+} from 'react-native-openai-agents-js-agents';
+import { removeAllTools } from 'react-native-openai-agents-js-agents-core/extensions';
 import { z } from 'zod';
 
 // Random number tool

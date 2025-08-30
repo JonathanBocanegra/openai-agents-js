@@ -10,9 +10,12 @@ import {
   Usage,
   RunToolApprovalItem,
   type FunctionTool,
-} from '@openai/agents-core';
-import { RuntimeEventEmitter } from '@openai/agents-core/_shims';
-import { isZodObject, toSmartString } from '@openai/agents-core/utils';
+} from 'react-native-openai-agents-js-agents-core';
+import { RuntimeEventEmitter } from 'react-native-openai-agents-js-agents-core/_shims';
+import {
+  isZodObject,
+  toSmartString,
+} from 'react-native-openai-agents-js-agents-core/utils';
 import type {
   FunctionToolDefinition,
   RealtimeSessionConfig,

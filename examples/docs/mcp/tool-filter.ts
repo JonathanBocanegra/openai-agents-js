@@ -3,7 +3,7 @@ import {
   MCPServerStreamableHttp,
   createMCPToolStaticFilter,
   MCPToolFilterContext,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 
 interface ToolFilterContext {
   allowAll: boolean;

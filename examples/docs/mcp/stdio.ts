@@ -1,4 +1,8 @@
-import { Agent, run, MCPServerStdio } from '@openai/agents';
+import {
+  Agent,
+  run,
+  MCPServerStdio,
+} from 'react-native-openai-agents-js-agents';
 import * as path from 'node:path';
 
 async function main() {

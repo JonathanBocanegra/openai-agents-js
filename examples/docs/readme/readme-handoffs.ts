@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { Agent, run, tool } from '@openai/agents';
+import { Agent, run, tool } from 'react-native-openai-agents-js-agents';
 
 const getWeatherTool = tool({
   name: 'get_weather',

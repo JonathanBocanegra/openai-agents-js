@@ -1,4 +1,4 @@
-import type { AgentInputItem } from '@openai/agents';
+import type { AgentInputItem } from 'react-native-openai-agents-js-agents';
 import { History } from '@/components/History';
 import { Button } from '@/components/ui/Button';
 import { useState, useRef, useEffect } from 'react';

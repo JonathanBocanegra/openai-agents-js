@@ -1,4 +1,4 @@
-import { Agent, tool } from '@openai/agents';
+import { Agent, tool } from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 const calculatorTool = tool({

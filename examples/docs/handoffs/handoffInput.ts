@@ -1,5 +1,9 @@
 import { z } from 'zod';
-import { Agent, handoff, RunContext } from '@openai/agents';
+import {
+  Agent,
+  handoff,
+  RunContext,
+} from 'react-native-openai-agents-js-agents';
 
 const EscalationData = z.object({ reason: z.string() });
 type EscalationData = z.infer<typeof EscalationData>;

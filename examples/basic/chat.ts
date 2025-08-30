@@ -5,7 +5,7 @@ import {
   tool,
   user,
   withTrace,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { createInterface } from 'node:readline/promises';
 import { z } from 'zod';
 

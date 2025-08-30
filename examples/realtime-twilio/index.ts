@@ -2,8 +2,11 @@ import Fastify from 'fastify';
 import dotenv from 'dotenv';
 import fastifyFormBody from '@fastify/formbody';
 import fastifyWs from '@fastify/websocket';
-import { RealtimeAgent, RealtimeSession } from '@openai/agents/realtime';
-import { TwilioRealtimeTransportLayer } from '@openai/agents-extensions';
+import {
+  RealtimeAgent,
+  RealtimeSession,
+} from 'react-native-openai-agents-js-agents/realtime';
+import { TwilioRealtimeTransportLayer } from 'react-native-openai-agents-js-agents-extensions';
 
 // Load environment variables from .env file
 dotenv.config();

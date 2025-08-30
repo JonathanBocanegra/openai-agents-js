@@ -1,4 +1,4 @@
-import type { RunToolApprovalItem } from '@openai/agents';
+import type { RunToolApprovalItem } from 'react-native-openai-agents-js-agents';
 import {
   Dialog,
   DialogClose,

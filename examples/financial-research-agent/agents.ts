@@ -1,4 +1,4 @@
-import { Agent, webSearchTool } from '@openai/agents';
+import { Agent, webSearchTool } from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 // --- Fundamentals Analyst Agent ---

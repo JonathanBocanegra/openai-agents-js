@@ -38,7 +38,7 @@ const plugins = [
   }),
   mainRealtimeStarlightTypeDoc({
     sidebar: {
-      label: '@openai/agents/realtime',
+      label: 'react-native-openai-agents-js-agents/realtime',
     },
     entryPoints: ['../packages/agents/src/realtime/index.ts'],
     output: 'openai/agents/realtime',
@@ -288,31 +288,31 @@ const sidebar = [
     collapsed: false,
     items: [
       {
-        label: '@openai/agents',
+        label: 'react-native-openai-agents-js-agents',
         collapsed: true,
         // Add the generated public sidebar group to the sidebar.
         items: [mainTypeDocSidebarGroup, mainRealtimeTypeDocSidebarGroup],
       },
       {
-        label: '@openai/agents-core',
+        label: 'react-native-openai-agents-js-agents-core',
         collapsed: true,
         // Add the generated public sidebar group to the sidebar.
         items: [coreTypeDocSidebarGroup],
       },
       {
-        label: '@openai/agents-openai',
+        label: 'react-native-openai-agents-js-agents-openai',
         collapsed: true,
         // Add the generated public sidebar group to the sidebar.
         items: [openaiTypeDocSidebarGroup],
       },
       {
-        label: '@openai/agents-realtime',
+        label: 'react-native-openai-agents-js-agents-realtime',
         collapsed: true,
         // Add the generated public sidebar group to the sidebar.
         items: [realtimeTypeDocSidebarGroup],
       },
       {
-        label: '@openai/agents-extensions',
+        label: 'react-native-openai-agents-js-agents-extensions',
         collapsed: true,
         // Add the generated public sidebar group to the sidebar.
         items: [extensionsTypeDocSidebarGroup],

@@ -37,10 +37,10 @@ import thinClientExample from '../../../../../../../examples/docs/voice-agents/t
 1. **Agents SDK をインストールする**
 
    ```bash
-   npm install @openai/agents 'zod@<=3.25.67'
+   npm install react-native-openai-agents-js-agents 'zod@<=3.25.67'
    ```
 
-   代わりにブラウザ用の単体パッケージである `@openai/agents-realtime` をインストールすることもできます。
+   代わりにブラウザ用の単体パッケージである `react-native-openai-agents-js-agents-realtime` をインストールすることもできます。
 
 2. **クライアントのエフェメラルトークンを生成する**
 
@@ -62,7 +62,7 @@ import thinClientExample from '../../../../../../../examples/docs/voice-agents/t
    新しい [`RealtimeAgent`](/openai-agents-js/openai/agents-realtime/classes/realtimeagent/) の作成は、通常の [`Agent`](/openai-agents-js/ja/guides/agents) の作成とほぼ同じです。
 
    ```typescript
-   import { RealtimeAgent } from '@openai/agents-realtime';
+   import { RealtimeAgent } from 'react-native-openai-agents-js-agents-realtime';
 
    const agent = new RealtimeAgent({
      name: 'Assistant',
@@ -75,7 +75,7 @@ import thinClientExample from '../../../../../../../examples/docs/voice-agents/t
    通常のエージェントと異なり、Voice エージェントは `RealtimeSession` 内で継続的に動作し、時間をかけてモデルとの会話と接続を管理します。このセッションは音声処理、割り込み、その他のライフサイクル機能も扱います。これらについては後ほど説明します。
 
    ```typescript
-   import { RealtimeSession } from '@openai/agents-realtime';
+   import { RealtimeSession } from 'react-native-openai-agents-js-agents-realtime';
 
    const session = new RealtimeSession(agent, {
      model: 'gpt-4o-realtime-preview-2025-06-03',
@@ -113,7 +113,6 @@ import thinClientExample from '../../../../../../../examples/docs/voice-agents/t
 ここからは、独自の音声エージェントの設計と構築を進めましょう。音声エージェントは通常のエージェントと多くの機能を共有していますが、いくつか固有の機能もあります。
 
 - 音声エージェントに以下を追加する方法を学ぶ
-
   - [ツール](/openai-agents-js/ja/guides/voice-agents/build#tools)
   - [ハンドオフ](/openai-agents-js/ja/guides/voice-agents/build#handoffs)
   - [ガードレール](/openai-agents-js/ja/guides/voice-agents/build#guardrails)

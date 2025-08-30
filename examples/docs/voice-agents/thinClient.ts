@@ -1,4 +1,4 @@
-import { OpenAIRealtimeWebRTC } from '@openai/agents/realtime';
+import { OpenAIRealtimeWebRTC } from 'react-native-openai-agents-js-agents/realtime';
 
 const client = new OpenAIRealtimeWebRTC();
 const audioBuffer = new ArrayBuffer(0);

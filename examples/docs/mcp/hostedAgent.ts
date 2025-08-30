@@ -1,4 +1,4 @@
-import { Agent, hostedMcpTool } from '@openai/agents';
+import { Agent, hostedMcpTool } from 'react-native-openai-agents-js-agents';
 
 export const agent = new Agent({
   name: 'MCP Assistant',

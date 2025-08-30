@@ -1,4 +1,4 @@
-import { randomUUID } from '@openai/agents-core/_shims';
+import { randomUUID } from 'react-native-openai-agents-js-agents-core/_shims';
 
 /**
  * Generate an ISO 8601 timestamp of the current time.

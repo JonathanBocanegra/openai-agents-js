@@ -7,9 +7,9 @@ import {
   protocol,
   tool,
   Usage,
-} from '@openai/agents-core';
-import { RuntimeEventEmitter } from '@openai/agents-core/_shims';
-import { EventEmitterDelegate } from '@openai/agents-core/utils';
+} from 'react-native-openai-agents-js-agents-core';
+import { RuntimeEventEmitter } from 'react-native-openai-agents-js-agents-core/_shims';
+import { EventEmitterDelegate } from 'react-native-openai-agents-js-agents-core/utils';
 import { z } from '@openai/zod/v3';
 import type {
   RealtimeClientMessage,

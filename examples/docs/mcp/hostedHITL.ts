@@ -1,4 +1,9 @@
-import { Agent, run, hostedMcpTool, RunToolApprovalItem } from '@openai/agents';
+import {
+  Agent,
+  run,
+  hostedMcpTool,
+  RunToolApprovalItem,
+} from 'react-native-openai-agents-js-agents';
 
 async function main(): Promise<void> {
   const agent = new Agent({

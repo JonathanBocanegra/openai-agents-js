@@ -1,5 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { withTrace, setTracingDisabled } from '@openai/agents-core';
+import {
+  withTrace,
+  setTracingDisabled,
+} from 'react-native-openai-agents-js-agents-core';
 import { OpenAIChatCompletionsModel } from '../src/openaiChatCompletionsModel';
 import { HEADERS } from '../src/defaults';
 
@@ -21,7 +24,7 @@ vi.mock('openai/helpers/zod', async () => {
 });
 
 import { convertChatCompletionsStreamToResponses } from '../src/openaiChatCompletionsStreaming';
-import type { SerializedOutputType } from '@openai/agents-core';
+import type { SerializedOutputType } from 'react-native-openai-agents-js-agents-core';
 
 class FakeClient {
   chat = { completions: { create: vi.fn() } };

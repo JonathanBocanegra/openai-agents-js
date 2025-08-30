@@ -1,4 +1,4 @@
-import type { AgentInputItem } from '@openai/agents';
+import type { AgentInputItem } from 'react-native-openai-agents-js-agents';
 import { TextMessage } from './messages/TextMessage';
 import {
   FunctionCallMessage,

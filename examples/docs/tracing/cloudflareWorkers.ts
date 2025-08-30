@@ -1,4 +1,4 @@
-import { getGlobalTraceProvider } from '@openai/agents';
+import { getGlobalTraceProvider } from 'react-native-openai-agents-js-agents';
 
 export default {
   // @ts-expect-error - Cloudflare Workers types are not typed

@@ -1,4 +1,9 @@
-import { AgentInputItem, Agent, user, run } from '@openai/agents';
+import {
+  AgentInputItem,
+  Agent,
+  user,
+  run,
+} from 'react-native-openai-agents-js-agents';
 
 const agent = new Agent({
   name: 'Assistant',

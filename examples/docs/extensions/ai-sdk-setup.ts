@@ -1,10 +1,10 @@
-import { Agent, run } from '@openai/agents';
+import { Agent, run } from 'react-native-openai-agents-js-agents';
 
 // Import the model package you installed
 import { openai } from '@ai-sdk/openai';
 
 // Import the adapter
-import { aisdk } from '@openai/agents-extensions';
+import { aisdk } from 'react-native-openai-agents-js-agents-extensions';
 
 // Create a model instance to be used by the agent
 const model = aisdk(openai('o4-mini'));

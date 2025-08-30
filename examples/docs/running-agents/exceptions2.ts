@@ -1,5 +1,10 @@
 import { z } from 'zod';
-import { Agent, run, tool, ToolCallError } from '@openai/agents';
+import {
+  Agent,
+  run,
+  tool,
+  ToolCallError,
+} from 'react-native-openai-agents-js-agents';
 
 const unstableTool = tool({
   name: 'get_weather (unstable)',

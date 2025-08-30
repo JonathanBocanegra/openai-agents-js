@@ -1,4 +1,4 @@
-import { Agent, MCPServerStdio } from '@openai/agents';
+import { Agent, MCPServerStdio } from 'react-native-openai-agents-js-agents';
 
 const server = new MCPServerStdio({
   fullCommand: 'npx -y @modelcontextprotocol/server-filesystem ./sample_files',

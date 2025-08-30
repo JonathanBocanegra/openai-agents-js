@@ -5,7 +5,7 @@ This package contains a collection of extension features for the OpenAI Agents S
 ## Installation
 
 ```bash
-npm install @openai/agents @openai/agents-extensions
+npm install react-native-openai-agents-js-agents react-native-openai-agents-js-agents-extensions
 ```
 
 ## License

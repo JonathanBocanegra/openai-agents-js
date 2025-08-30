@@ -1,4 +1,4 @@
-import { EventEmitter } from '@openai/agents-core/_shims';
+import { EventEmitter } from 'react-native-openai-agents-js-agents-core/_shims';
 import {
   RealtimeClientMessage,
   RealtimeSessionConfig,

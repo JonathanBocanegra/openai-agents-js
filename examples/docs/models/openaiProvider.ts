@@ -4,7 +4,7 @@ import {
   setDefaultOpenAIKey,
   setDefaultOpenAIClient,
   setTracingExportApiKey,
-} from '@openai/agents';
+} from 'react-native-openai-agents-js-agents';
 import { OpenAI } from 'openai';
 
 setDefaultOpenAIKey(process.env.OPENAI_API_KEY!);

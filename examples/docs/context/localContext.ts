@@ -1,4 +1,9 @@
-import { Agent, run, RunContext, tool } from '@openai/agents';
+import {
+  Agent,
+  run,
+  RunContext,
+  tool,
+} from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 
 interface UserInfo {

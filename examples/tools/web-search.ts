@@ -1,4 +1,9 @@
-import { Agent, run, webSearchTool, withTrace } from '@openai/agents';
+import {
+  Agent,
+  run,
+  webSearchTool,
+  withTrace,
+} from 'react-native-openai-agents-js-agents';
 
 async function main() {
   const agent = new Agent({

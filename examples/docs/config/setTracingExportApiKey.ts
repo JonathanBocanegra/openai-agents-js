@@ -1,3 +1,3 @@
-import { setTracingExportApiKey } from '@openai/agents';
+import { setTracingExportApiKey } from 'react-native-openai-agents-js-agents';
 
 setTracingExportApiKey('sk-...');

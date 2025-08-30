@@ -1,4 +1,16 @@
-# @openai/agents-core
+# react-native-openai-agents-js-agents-core
+
+## 0.1.0
+
+### Minor Changes
+
+- a96b7f0: Add React Native platform support
+
+### Patch Changes
+
+- 08dd469: agents-core, agents-realtime: add MCP tool-filtering support (fixes #162)
+- d9c4ddf: include JsonSchema definitions in mcpTool inputSchema
+- fba44d9: Fix #246 by exposing RunHandoffOutputItem type
 
 ## 0.0.13
 

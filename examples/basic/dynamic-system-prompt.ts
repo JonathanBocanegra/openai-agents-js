@@ -1,4 +1,4 @@
-import { Agent, RunContext, run } from '@openai/agents';
+import { Agent, RunContext, run } from 'react-native-openai-agents-js-agents';
 
 type Style = 'haiku' | 'pirate' | 'robot';
 

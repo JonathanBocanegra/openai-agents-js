@@ -1,4 +1,4 @@
-import type { TransportEvent } from '@openai/agents-realtime';
+import type { TransportEvent } from 'react-native-openai-agents-js-agents-realtime';
 
 export function log(event: TransportEvent) {
   const log = document.querySelector<HTMLDivElement>('#eventLog')!;

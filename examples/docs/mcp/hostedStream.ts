@@ -1,4 +1,4 @@
-import { run } from '@openai/agents';
+import { run } from 'react-native-openai-agents-js-agents';
 import { agent } from './hostedAgent';
 
 async function main() {

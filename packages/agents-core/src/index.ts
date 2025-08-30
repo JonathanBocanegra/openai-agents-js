@@ -1,7 +1,7 @@
 import { addTraceProcessor } from './tracing';
 import { defaultProcessor } from './tracing/processor';
 
-export { RuntimeEventEmitter } from '@openai/agents-core/_shims';
+export { RuntimeEventEmitter } from 'react-native-openai-agents-js-agents-core/_shims';
 export {
   Agent,
   AgentConfiguration,

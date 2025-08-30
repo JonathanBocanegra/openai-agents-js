@@ -1,4 +1,7 @@
-import { withCustomSpan, withTrace } from '@openai/agents';
+import {
+  withCustomSpan,
+  withTrace,
+} from 'react-native-openai-agents-js-agents';
 import {
   plannerAgent,
   webSearchPlan,
@@ -9,7 +12,7 @@ import {
   WebSearchItem,
   ReportData,
 } from './agents';
-import { Runner } from '@openai/agents';
+import { Runner } from 'react-native-openai-agents-js-agents';
 
 export class ResearchManager {
   runner: Runner;

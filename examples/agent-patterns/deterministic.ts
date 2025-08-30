@@ -1,4 +1,4 @@
-import { Agent, run, withTrace } from '@openai/agents';
+import { Agent, run, withTrace } from 'react-native-openai-agents-js-agents';
 import { z } from 'zod';
 import readline from 'node:readline/promises';
 

@@ -4,13 +4,13 @@ import {
   isBrowserEnvironment,
   mediaDevices as shimMediaDevices,
   RTCPeerConnection as RTCPeerConnectionCtor,
-} from '@openai/agents-realtime/_shims';
+} from 'react-native-openai-agents-js-agents-realtime/_shims';
 import {
   RealtimeTransportLayer,
   RealtimeTransportLayerConnectOptions,
 } from './transportLayer';
 
-import { UserError } from '@openai/agents-core';
+import { UserError } from 'react-native-openai-agents-js-agents-core';
 import logger from './logger';
 import { RealtimeClientMessage, RealtimeSessionConfig } from './clientMessages';
 import {
